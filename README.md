@@ -2,7 +2,7 @@
 该代码为了自动下载36漫画网中“百炼成神”的图片
 https://www.36mh.com/manhua/bailianchengshen/
 
-主要使用的python第三方库：
+主要使用的python模块：
   1、request
   2、selenium
   3、bs4
