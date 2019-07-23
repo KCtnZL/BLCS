@@ -54,7 +54,7 @@ def get_order(soup):
 							order = order.append(count,ignore_index=True)
 	return(order)
 ```
-上面代码中获取所需信息的方式是使用find（）或者find_all()的方法进行获取，其实还有很多不同的获取方法。比如正则表达式、xpth提取、css提取\n
+上面代码中获取所需信息的方式是使用find（）或者find_all()的方法进行获取，其实还有很多不同的获取方法。比如正则表达式、xpth提取、css提取  
 上面代码有个不好的地方时使用了太多for循环嵌套，可能会影响代码执行的效率
 
 ### 接下来需要审查每个章节的源码结构，并提取图片链接
